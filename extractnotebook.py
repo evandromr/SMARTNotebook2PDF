@@ -22,9 +22,9 @@ for svgpage, pdfpage in zip(svgpages, pdfpages):
     renderPDF.drawToFile(svgpage, pdfpage)
 # Merges pdf pages in document.pdf
 merger = PdfFileMerger()
-[ merger.append(PdfFileReader(file(pdfpage, 'rb'))) for pdfpage in pdfpages]
+[merger.append(PdfFileReader(file(pdfpage, 'rb'))) for pdfpage in pdfpages]
 # Writes pdf file with all pages with same name as notebook file
 merger.write(fname.split(".")[0]+".pdf")
 # Delete intermediary files
-[ os.remove(svgfile) for svgfile in svgpages ]
-[ os.remove(pdffile) for pdffile in pdfpages ]
+[os.remove(svgfile) for svgfile in svgpages]
+[os.remove(pdffile) for pdffile in pdfpages]
