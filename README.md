@@ -5,3 +5,9 @@ Uses the following third-party modules:
   - svglib
   - reportlab
   - PyPDF2
+
+## How to use:
+
+    python extractnotebook.py
+
+:)
