@@ -1,2 +1,7 @@
 # SMARTNotebook2PDF
-Convert SMART .notebook files to pdf
+A simple python script to Convert SMART .notebook files to pdf
+
+Uses the following third-party modules:
+  - svglib
+  - reportlab
+  - PyPDF2
