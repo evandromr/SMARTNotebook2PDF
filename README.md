@@ -11,6 +11,6 @@ Uses the following third-party modules:
     python extractnotebook.py
 
 ## WARNING:
-  the module `svglib` does not support python3+.
-  the script works for python2 only, but with python3-friendly syntax.
+  The module `svglib` does not support python3+.  
+  The script works for python2 only, but with python3-friendly syntax.
   
